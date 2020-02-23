@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AdHocUpdated">
+<listeners>
+
+<listener class-name="Com.FACEBOOK.Auto.TRAINING02.LISTENERS"></listener>
+
+</listeners>
+
+<test name="Rgression">
+
+<parameter name="url" value="https://facebook.com"></parameter>
+
+<parameter name="browser" value="Chrome"></parameter>
+
+
+<classes>
+<!--<class name="RUN.Home_Site"></class>-->
+<class name="RUN.DATAprovider"></class>
+
+</classes>
+</test>
+
+<test name="IT">
+
+<parameter name="url" value="https://facebook.com"></parameter>
+
+<parameter name="browser" value="Firefox"></parameter>
+
+
+<classes>
+<!--<class name="RUN.Home_Site"></class>-->
+<class name="RUN.DATAprovider"></class>
+</classes>
+</test>
+</suite>
+
+
+

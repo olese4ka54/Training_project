@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Executed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Executed sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite name="AdHocUpdated" duration-ms="75809" started-at="2020-02-23T12:48:55 EST" finished-at="2020-02-23T12:50:11 EST">
+    <groups>
+    </groups>
+    <test name="Rgression" duration-ms="41478" started-at="2020-02-23T12:48:55 EST" finished-at="2020-02-23T12:49:37 EST">
+      <class name="RUN.DATAprovider">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:RUN.DATAprovider@1efed156]" name="beforeClass" is-config="true" duration-ms="14262" started-at="2020-02-23T12:48:55 EST" finished-at="2020-02-23T12:49:09 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:RUN.DATAprovider@1efed156]" name="f" duration-ms="8508" started-at="2020-02-23T12:49:09 EST" data-provider="dp" finished-at="2020-02-23T12:49:18 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[petya@gmil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:RUN.DATAprovider@1efed156]" name="f" duration-ms="4877" started-at="2020-02-23T12:49:19 EST" data-provider="dp" finished-at="2020-02-23T12:49:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[misha@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:RUN.DATAprovider@1efed156]" name="f" duration-ms="4922" started-at="2020-02-23T12:49:24 EST" data-provider="dp" finished-at="2020-02-23T12:49:29 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anna@live.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:RUN.DATAprovider@1efed156]" name="f" duration-ms="5934" started-at="2020-02-23T12:49:30 EST" data-provider="dp" finished-at="2020-02-23T12:49:36 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ivan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:RUN.DATAprovider@1efed156]" name="afterClass" is-config="true" duration-ms="4" started-at="2020-02-23T12:49:37 EST" finished-at="2020-02-23T12:49:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- RUN.DATAprovider -->
+    </test> <!-- Rgression -->
+    <test name="IT" duration-ms="34195" started-at="2020-02-23T12:49:37 EST" finished-at="2020-02-23T12:50:11 EST">
+      <class name="RUN.DATAprovider">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:RUN.DATAprovider@5a1c0542]" name="beforeClass" is-config="true" duration-ms="16977" started-at="2020-02-23T12:49:37 EST" finished-at="2020-02-23T12:49:54 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:RUN.DATAprovider@5a1c0542]" name="f" duration-ms="4032" started-at="2020-02-23T12:49:54 EST" data-provider="dp" finished-at="2020-02-23T12:49:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[petya@gmil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:RUN.DATAprovider@5a1c0542]" name="f" duration-ms="3609" started-at="2020-02-23T12:49:58 EST" data-provider="dp" finished-at="2020-02-23T12:50:02 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[misha@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:RUN.DATAprovider@5a1c0542]" name="f" duration-ms="3519" started-at="2020-02-23T12:50:02 EST" data-provider="dp" finished-at="2020-02-23T12:50:06 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anna@live.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:RUN.DATAprovider@5a1c0542]" name="f" duration-ms="3912" started-at="2020-02-23T12:50:06 EST" data-provider="dp" finished-at="2020-02-23T12:50:10 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ivan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:RUN.DATAprovider@5a1c0542]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-02-23T12:50:11 EST" finished-at="2020-02-23T12:50:11 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- RUN.DATAprovider -->
+    </test> <!-- IT -->
+  </suite> <!-- AdHocUpdated -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AdHocUpdated]">
+  <listeners>
+    <listener class-name="Com.FACEBOOK.Auto.TRAINING02.LISTENERS"/>
+  </listeners>
+  <test thread-count="5" name="IT(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="url" value="https://facebook.com"/>
+    <classes>
+      <class name="RUN.Home_Site">
+        <methods>
+          <include name="f"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- RUN.Home_Site -->
+    </classes>
+  </test> <!-- IT(failed) -->
+</suite> <!-- Failed suite [AdHocUpdated] -->
